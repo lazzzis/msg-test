@@ -1,0 +1,11 @@
+pre,
+code {
+  white-space: pre-line;
+}
+.container {
+  height: 80vh;
+
+  > * {
+    margin-top: 0.25em;
+  }
+}
