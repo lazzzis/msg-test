@@ -11,7 +11,7 @@ if ("serviceWorker" in navigator) {
 }
 
 // 3. Notification Blocked
-const notificationBlocked = document.querySelector("#notification-blocked");
+const notificationBlocked = document.querySelector("#notificationBlocked");
 notificationBlocked.addEventListener("click", () => {
   Notification.requestPermission();
 });
