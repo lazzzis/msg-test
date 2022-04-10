@@ -3,7 +3,7 @@
     "parcel": "^2.4.1"
   },
   "scripts": {
-    "build": "parcel build src/index.html --dist-dir docs",
+    "build": "parcel build src/index.html --dist-dir docs --public-url ./",
     "dev": "parcel src/index.html"
   },
   "devDependencies": {
