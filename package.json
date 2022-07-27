@@ -4,7 +4,7 @@
   },
   "scripts": {
     "build": "parcel build src/index.html --dist-dir docs --public-url ./",
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html --host 0.0.0.0"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "2.4.1",
